@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do List including Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>To-do List including Expense Tracker</h1>
+  </header>
+
+  <!-- Login Section -->
+  <section class="login-section">
+    <h2>Login</h2>
+    <form class="login-form">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <div class="container">
+    <!-- Dashboard Summary -->
+    <div class="summary">
+      <div class="card tasks">
+        <h2>5</h2>
+        <p>Total Tasks</p>
+      </div>
+      <div class="card completed">
+        <h2>2</h2>
+        <p>Completed Tasks</p>
+      </div>
+      <div class="card expenses">
+        <h2>$1260.50</h2>
+        <p>Total Expenses</p>
+      </div>
+    </div>
+
+    <!-- Tasks Section -->
+    <section>
+      <h2>Tasks</h2>
+      <ul>
+        <li>Complete project <span>(Pending, due: 2025-09-10)</span></li>
+        <li>Buy groceries <span>(Completed, due: 2025-08-20)</span></li>
+        <li>Team meeting <span>(Pending, due: 2025-08-27)</span></li>
+        <li>Gym workout <span>(Completed, due: 2025-08-22)</span></li>
+        <li>Call client <span>(Pending, due: 2025-08-30)</span></li>
+      </ul>
+    </section>
+
+    <!-- Expenses Section -->
+    <section>
+      <h2>Expenses</h2>
+      <ul>
+        <li>Lunch at cafe - $250.00 <span>(2025-08-21)</span></li>
+        <li>Taxi fare - $120.50 <span>(2025-08-19)</span></li>
+        <li>Concert ticket - $500.00 <span>(2025-08-20)</span></li>
+        <li>Snacks - $90.00 <span>(2025-08-18)</span></li>
+        <li>Bus pass - $300.00 <span>(2025-08-15)</span></li>
+      </ul>
+    </section>
+
+    <!-- Budgets Section -->
+    <section>
+      <h2>Budgets</h2>
+      <ul>
+        <li>Alice - $3000.00 <span>(August 2025)</span></li>
+        <li>Bob - $2500.00 <span>(August 2025)</span></li>
+        <li>Charlie - $4000.00 <span>(August 2025)</span></li>
+        <li>Diana - $3500.00 <span>(August 2025)</span></li>
+        <li>Eve - $2000.00 <span>(August 2025)</span></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>Created by: Ovijit Ray Ovi</p>
+    <p>Project: To-do List including Expense Tracker (2025)</p>
+  </footer>
+</body>
+</html>
